@@ -12,5 +12,7 @@ dependencies:
   - pillow
   - ipywidgets
   - voila
+  - pip
   - pip:
       - cellpose
+
