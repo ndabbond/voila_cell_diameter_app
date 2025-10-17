@@ -11,8 +11,34 @@ dependencies:
   - scikit-image
   - pillow
   - ipywidgets
+  - jupyterlab
   - voila
-  - pip
+  - tqdm
+  - requests
+  - pyyaml
+  - networkx
+  - pyqt
+  - shapely
+  - imageio
+  - tifffile
+  - nbconvert
   - pip:
-      - cellpose
-
+      - cellpose==3.1.1.1
+      - torch>=2.3.0
+      - fastremap
+      - opencv-python-headless
+      - numba
+      - natsort
+      - roifile
+      - pyqt6
+      - pyqt6-qt6
+      - pyqt6-sip
+      - pyqtgraph
+      - superqt
+      - sympy
+      - scipy
+      - markupsafe
+      - filelock
+      - tqdm
+      - ipympl
+      - qtpy
